@@ -1,5 +1,11 @@
 # 安装微软QDK
 
+[^_^]: # (本文Github地址)
+[^_^]: # (Jypyter的Link)
+
+目录：[Github](https://github.com/jks-liu/quantum)，[知乎专栏](https://zhuanlan.zhihu.com/p/98372659)
+
+
 既然是编程语言，当然就会有编程环境。我们使用微软的QDK（Microsoft Quantum Development Kit）。
 
 由于Q#是一门DSL，所以一般会和其它的一门通用语言一起使用。微软提供了三个个选项，C#，Python和Jupyter。在这个系列中，我主要基于Jupyter，因为这可以让我们专注于Q#。关于C#和Python相关的使用，请参考[官方文档](install)。
@@ -70,7 +76,7 @@ operation hello_world(): Unit {
 ```
 如果可以看到结果，就OK啦。
 
-Notebook可以参考[Install QDK](../nb/install-qdk.ipynb)
+Notebook可以参考[Install QDK](../nb/install-qdk.ipynb)。
 
 # 备注
 我在两天电脑上安装过以上环境，其中一个有以下错误，分享出来仅供参考。
