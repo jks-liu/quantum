@@ -1,5 +1,9 @@
 # 〇〇Q#（三）：随机数
 
+[本文Github地址](https://github.com/jks-liu/quantum/blob/master/nb/random-number.ipynb)。由于Github渲染Jupyter里的公式有些问题，建议下载下来查看，这样的话，下面的代码也可以直接运行。
+
+目录：[Github](https://github.com/jks-liu/quantum)，[知乎专栏](https://zhuanlan.zhihu.com/p/98372659)。
+
 这篇文章中，你会学到以下内容
 
 关于量子算法
@@ -59,10 +63,7 @@ operation random_number(): Unit {
 # 数学描述
 数学上，`Zero`和`One`分别对应一个向量，在量子力学语境中，一般称其为**态矢（State Vector）**。
 
-$$
-Zero = \begin{bmatrix} 1 \\ 0 \end{bmatrix},
-One = \begin{bmatrix} 0 \\ 1 \end{bmatrix}
-$$
+$$Zero = \begin{bmatrix} 1 \\ 0 \end{bmatrix},One = \begin{bmatrix} 0 \\ 1 \end{bmatrix}$$
 
 下面我们来复习一下数学知识。
 
@@ -94,7 +95,7 @@ $$\begin{bmatrix} 0 & -i \\ i & 0 \end{bmatrix}^{\dagger} = \begin{bmatrix} 0 & 
 
 对于单个量子比特q，记其态矢为$\psi=\begin{bmatrix} \alpha \\ \beta \end{bmatrix}$。那我们有以下结论：
 
-1. 当我们测量q（判断它是`Zero`还是`One`）时，有$||\alpha||^2$的概率是`Zero`，有$||\beta||^2 = 1$的概率是`One`;
+1. 当我们测量q（判断它是`Zero`还是`One`）时，有$||\alpha||^2$的概率是`Zero`，有$||\beta||^2$的概率是`One`;
 2. 显然，考虑概率的和必为1，$||\alpha||^2 + ||\beta||^2 = 1$
 
 # 量子算法再解析
@@ -112,11 +113,7 @@ $$\psi = \begin{bmatrix} 1 \\ 0 \end{bmatrix}$$。
 
 为了得到**叠加态**，我们会用到一个矩阵$H=\frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}$，将其与原态矢$\psi$相乘，使其变为
 
-$$
-\psi \Leftarrow H\psi 
-= \frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}\begin{bmatrix} 1 \\ 0 \end{bmatrix} 
-= \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \\ 1 \end{bmatrix}
-$$
+$$\psi \Leftarrow H\psi = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 & 1 \\ 1 & -1 \end{bmatrix}\begin{bmatrix} 1 \\ 0 \end{bmatrix} = \frac{1}{\sqrt{2}}\begin{bmatrix} 1 \\ 1 \end{bmatrix}$$
 
 上面出现的矩阵乘法就当大家都是会的，我就不细说了。
 
