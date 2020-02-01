@@ -17,7 +17,7 @@ S = [1 0; 0 i];
 
 % PauliX
 U = H;
-str(U' * PauliZ * U)
+U' * PauliZ * U
 
 % PauliY
 U = H*S';
