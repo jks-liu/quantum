@@ -1,4 +1,5 @@
-# （一）前言
+#! https://zhuanlan.zhihu.com/p/98372659
+# 〇〇Q#（一）前言、目录
 
 [^_^]: # (本文Github地址)
 
@@ -17,15 +18,20 @@
 
 # 目录
 ## Github
-- （一）本目录
+- [（一）本目录](https://github.com/jks-liu/quantum)
 - [（二）安装微软QDK](https://github.com/jks-liu/quantum/blob/master/%E3%80%87%E3%80%87/install-qdk.md)
 - [（三）随机数](https://github.com/jks-liu/quantum/blob/master/nb/random-number.ipynb)
 - [（四）多个量子比特](https://github.com/jks-liu/quantum/blob/master/nb/004-multi-qubits.ipynb)
+- [（五）：量子纠缠](https://github.com/jks-liu/quantum/blob/master/nb/005-quantum-entanglement.ipynb)
+- [（六）：Deutsch算法](https://github.com/jks-liu/quantum/blob/master/nb/006-deuthch's-algorithm.ipynb)
+
 ## 知乎专栏
-- （一）本目录
+- [（一）本目录](https://zhuanlan.zhihu.com/p/98372659)
 - [（二）安装微软QDK](https://zhuanlan.zhihu.com/p/100770878)
 - [（三）随机数](https://zhuanlan.zhihu.com/p/102055485)
 - [（四）多个量子比特](https://zhuanlan.zhihu.com/p/104126593)
+- [（五）：量子纠缠](https://zhuanlan.zhihu.com/p/104208779)
+- [（六）：Deutsch算法](https://zhuanlan.zhihu.com/p/199649086)
 
 # 官方文档
 官方文档就推荐我学习时看的
@@ -36,4 +42,4 @@
 
 ## 协议
 CC-BY-SA  
-(c) 2019 〇〇口口
+(c) 2019-2020 〇〇口口

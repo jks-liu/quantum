@@ -22,5 +22,5 @@
 关于量子算法
 - 量子纠缠（quantum entanglement）
 
-关于Q#
+关于`Q#`
 - `CNOT`量子门，**控制非门（Controlled-NOT gate）**
